@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,600;1,400&display=swap");
+@media (max-width: 600px) {
+  main {
+    height: unset;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}
+
+body {
+  transition: background-color 0.5s ease;
+  font-family: Arial, sans-serif;
+  text-align:start;
+  margin: 0;
+  background-color: var(--cor-background);
+  color: var(--cor-texto);
+  font-family: "Red Hat Display", sans-serif;
+}
+main {
+  display: flex;
+  gap: 45px;
+}
+
+.container{
+  text-align:justify;
+  background-color: #FFFFF0;
+  color: #000000;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  border: 3px;
+  border-radius: 0.5em;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(49, 49, 49, 0.176);
+}
+
+
+footer {
+  display: flex;
+  background-color: #dadada;
+  color: var(--black-color);
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  gap: 1em;
+  text-align: center;
+  padding: 1em;
+
+
+}
+footer p{
+  padding: 1em;
+  bottom: 50%;
+}
+footer a{
+  color: #000;
+  bottom: 50%;
+}
+
+footer a:hover{
+  opacity: 0.7;
+  transition: opacity 0.5s ease;
+}
+
+
